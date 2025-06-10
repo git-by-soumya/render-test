@@ -1,0 +1,94 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "HTML is easy",
+      "important": false
+    },
+    {
+      "id": "2",
+      "content": "Browser can execute only JavaScript",
+      "important": false
+    },
+    {
+      "id": "3",
+      "content": "GET and POST are the most important methods of HTTP protocol",
+      "important": true
+    },
+    {
+      "id": "4",
+      "content": "a new note...",
+      "important": false
+    },
+    {
+      "id": "5",
+      "content": "Thor",
+      "important": false
+    },
+    {
+      "id": "6",
+      "content": "Gorr",
+      "important": false
+    },
+    {
+      "id": "7",
+      "content": "Gorr",
+      "important": false
+    },
+    {
+      "id": "8",
+      "content": "Gorr",
+      "important": true
+    },
+    {
+      "id": "9",
+      "content": "Gorr",
+      "important": true
+    },
+    {
+      "id": "f7be",
+      "content": "Loki",
+      "important": false
+    },
+    {
+      "id": "1559",
+      "content": "Odin",
+      "important": true
+    },
+    {
+      "id": "117c",
+      "content": "hodor",
+      "important": true
+    },
+    {
+      "id": "ed89",
+      "content": "T-Rex",
+      "important": false
+    },
+    {
+      "id": "31b3",
+      "content": "I am DOG",
+      "important": false
+    },
+    {
+      "id": "773a",
+      "content": "a new note...",
+      "important": false
+    },
+    {
+      "id": "0527",
+      "content": "hehe",
+      "important": false
+    },
+    {
+      "id": "6249",
+      "content": "gugugaga",
+      "important": true
+    },
+    {
+      "id": "776d",
+      "content": "Jurassic",
+      "important": false
+    }
+  ]
+}
