@@ -2,12 +2,12 @@
 
 const express = require("express");
 const app = express();
-const cors = require("cors");
+//const cors = require("cors");
 
-const corsOptions = {
+/*const corsOptions = {
     origin: "http://localhost:5173",
     optionsSuccessStatus: 200,
-};
+};*/
 
 const requestLogger = (request, response, next) => {
     console.log('Method:', request.method);
@@ -19,7 +19,7 @@ const requestLogger = (request, response, next) => {
 
 app.use(express.static("dist"));
 app.use(express.json());
-app.use(cors(corsOptions));
+//app.use(cors(corsOptions));
 app.use(requestLogger);
 
 let notes = [
