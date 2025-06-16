@@ -8,11 +8,14 @@
     "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rm -rf dist && cd ../frontend && npm run build && cp -r dist ../backend",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push origin main"
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push origin main",
+    "debug": "node --inspect index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2"
   }
 }
