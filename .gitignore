@@ -1,2 +1,5 @@
 # ignore any folder named node_modules located anywhere in the repository
 node_modules/
+
+# ignore any .env file located anywhere in the repository
+.env
