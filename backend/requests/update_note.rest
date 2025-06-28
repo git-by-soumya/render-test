@@ -1,0 +1,16 @@
+PUT http://localhost:3001/api/notes/684dcf40d970a92a061c3a89
+Content-Type: application/json
+
+{
+    "content": "Is HTML really that important?",
+    "important": true
+}
+
+###
+PUT http://localhost:3001/api/notes/1
+Content-Type: application/json
+
+{
+    "content": "Is HTML really that important?",
+    "important": true
+}
