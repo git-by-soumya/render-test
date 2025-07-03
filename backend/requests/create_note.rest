@@ -40,3 +40,21 @@ Content-Type: application/json
     "important": true,
     "number": 121212
 }
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "ball",
+    "important": false
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "",
+    "important": true
+}
