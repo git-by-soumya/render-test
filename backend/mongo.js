@@ -37,8 +37,8 @@ const note3 = new Note({
 
 Promise
     .allSettled([
-        note1.save(), 
-        note2.save(), 
+        note1.save(),
+        note2.save(),
         note3.save(),
     ])
     .then(results => {
