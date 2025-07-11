@@ -17,8 +17,8 @@ export default [
     rules: {
       "@stylistic/indent": ["error", 2,],
       "@stylistic/linebreak-style": ["error", "unix",],
-      "@stylistic/quotes": ["error", "single",],
-      "@stylistic/semi": ["error", "never",],
+      "@stylistic/quotes": ["error", "double",],
+      "@stylistic/semi": ["error", "always",],
       eqeqeq: "error",
       "no-trailing-spaces": "error",
       "object-curly-spacing": ["error", "always",],
